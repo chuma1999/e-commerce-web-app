@@ -1,0 +1,308 @@
+    .sec-one {
+        padding-left: 30px;
+        background-color: rgb(206, 247, 249);
+        padding-top: 40px;
+        overflow: hidden;
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 40px;
+            margin-bottom: 60px;
+            .links {
+                width: 300px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                a {
+                    color: rgb(165, 158, 158);
+                    font-weight: 600;
+                }
+                a.active {
+                    color: #000;
+                }
+                a:hover {
+                    color: rgb(98, 96, 96);
+                }
+            }
+        }
+        .search {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .srch-btn {
+                position: relative;
+                cursor: pointer;
+                input {
+                    padding: 17px 14px;
+                    border-radius: 11px;
+                    border: none;
+                    width: 280px;
+                    color: rgb(31, 30, 30);
+                    font-size: 14px;
+                    background-color: rgb(239, 252, 254);
+                }
+                input::placeholder {
+                    color: rgb(165, 158, 158);
+                    font-size: 14px;
+                }
+                input:focus {
+                    outline: none;
+                }
+                .icon {
+                    padding: 17px 10px;
+                    background-color: #000;
+                    color: #fff;
+                    border-radius: 11px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        height: 18px;
+                        width: 30px;
+                    }
+                }
+                .icon:hover {
+                    background-color: rgb(67, 79, 83);
+                }
+            }
+            .prcntg {
+                position: relative;
+                h2 {
+                    position: absolute;
+                    bottom: 25px;
+                    margin: 0px;
+                    font-weight: 800;
+                }
+                .line {
+                    height: 1.5px;
+                    background-color: #000;
+                    display: inline-block;
+                    width: 100%;
+                    margin: 0px;
+                }
+                .save {
+                    margin-top: -5px;
+                    margin-right: 60px;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .big-words {
+            margin-bottom: 0px;
+            position: relative;
+            .more-logo {
+                margin-left: 10px;
+                position: absolute;
+                bottom: 50px;
+                img {
+                    width: 60px;
+                }
+            }
+            h1 {
+                font-size: 62px;
+                font-weight: 800;
+                line-height: 1.1;
+            }
+            .share {
+                display: inline-block;
+                margin-bottom: 0px;
+            }
+            .topz {
+                margin-top: 0px;
+            }
+        }
+    }
+    
+    .sec-two {
+        background-color: rgb(111, 230, 243);
+        padding-top: 30px;
+        position: relative;
+        .bag-con {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0px 40px;
+            .shop-bag {
+                padding: 13px 12px;
+                background-color: #000;
+                color: #fff;
+                border-radius: 11px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                img {
+                    height: 25px;
+                    width: 30px;
+                }
+            }
+            .shop-bag:hover {
+                background-color: rgb(67, 79, 83);
+            }
+        }
+        .shoe-image {
+            width: 320px;
+            margin-left: 20px;
+            margin-right: auto;
+            margin-top: 50px;
+            transform: rotate(-30deg);
+            img {
+                width: 100%;
+            }
+        }
+        .shoe-color {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-right: 40px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            span {
+                background-color: rgba(255, 255, 255, 0.594);
+                padding: 8px 8px;
+                border-radius: 8px;
+                cursor: pointer;
+            }
+            .red {
+                color: red;
+                strong {
+                    padding: 2px 6px;
+                    border-radius: 50%;
+                    background-color: red;
+                    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+                }
+            }
+            .black {
+                color: black;
+                strong {
+                    padding: 2px 6px;
+                    border-radius: 50%;
+                    background-color: black;
+                    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+                }
+            }
+            .white {
+                color: rgb(169, 169, 157);
+                strong {
+                    padding: 2px 6px;
+                    border-radius: 50%;
+                    background-color: rgb(169, 169, 157);
+                    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+                }
+            }
+        }
+        .background-black {
+            background-color: #000;
+            color: rgb(239, 252, 254);
+            padding-bottom: 5px;
+            height: 100%;
+            .crved-size {
+                margin-top: 50px;
+                margin-left: 40px;
+                margin-right: 40px;
+                padding-top: 10px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .size-39 {
+                    position: relative;
+                    font-size: 18px;
+                    cursor: pointer;
+                    .box {
+                        height: 5px;
+                        background-color: #fff;
+                        width: 5px;
+                        margin-left: 8px;
+                        margin-bottom: 10px;
+                        border-radius: 50%;
+                        position: relative;
+                        z-index: 10;
+                    }
+                    .nmbrs {
+                        margin-top: 10px;
+                        position: relative;
+                        z-index: 10;
+                    }
+                    .sizee {
+                        top: 10px;
+                        left: -2px;
+                        position: absolute;
+                        z-index: 10;
+                        display: none;
+                        font-size: 14px;
+                    }
+                }
+                .golden {
+                    color: gold;
+                }
+                .size-39::before {
+                    content: "";
+                    width: 80px;
+                    height: 60px;
+                    position: absolute;
+                    top: -38px;
+                    left: -28px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    background-color: #000;
+                    display: none;
+                }
+                .size-39:hover .box {
+                    top: -25px;
+                }
+                .size-39:hover .nmbrs {
+                    top: -25px;
+                }
+                .size-39:hover .sizee {
+                    display: block;
+                }
+                .size-39:hover::before {
+                    display: block;
+                }
+            }
+            .detail {
+                margin-left: 40px;
+                margin-right: 40px;
+                margin-top: 15px;
+                .shoe-nm {
+                    font-size: 30px;
+                    letter-spacing: 2px;
+                    margin-top: 5px;
+                }
+                .underline2 {
+                    height: 1px;
+                    background-color: #ccc;
+                }
+                .reviews {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-size: 14px;
+                    margin: 15px 0px;
+                    .stars {
+                        span {
+                            img {
+                                width: 18px;
+                                height: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    .copy-rights {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .red {
+            color: rgb(220, 40, 76);
+            font-weight: 800;
+        }
+    }

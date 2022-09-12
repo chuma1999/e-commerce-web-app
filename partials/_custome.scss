@@ -1,0 +1,22 @@
+.customize {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0px;
+    .sorry {
+        strong {
+            color: rgb(220, 40, 76);
+            font-weight: 800;
+        }
+    }
+    .creator {
+        strong {
+            color: rgb(220, 40, 76);
+            font-weight: 800;
+        }
+    }
+    .thanks {
+        color: #135e49;
+    }
+}

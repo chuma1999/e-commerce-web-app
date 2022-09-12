@@ -1,0 +1,29 @@
+@media screen and (max-width: 1525px) {
+    .mother_container {
+        display: none;
+    }
+    .small-screen {
+        display: block;
+        text-align: center;
+        h2 {
+            color: rgb(220, 40, 76);
+        }
+        strong {
+            font-size: 30px;
+            color: rgb(220, 40, 76);
+        }
+    }
+    body {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .small-screen {
+        width: 250px;
+        height: 350px;
+        top: 20%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

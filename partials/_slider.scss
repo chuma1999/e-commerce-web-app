@@ -1,0 +1,223 @@
+.swiper-wrapper {
+    display: flex;
+    align-items: center;
+    height: 280px;
+    position: relative;
+    .bg-1 {
+        background-color: rgb(111, 230, 243);
+        .mg-1 {
+            margin-top: 22px;
+            .p-1 {
+                strong {
+                    background-color: rgb(111, 230, 243);
+                }
+            }
+        }
+    }
+    .bg-2 {
+        background-color: rgb(220, 40, 76);
+        .mg-2 {
+            margin-top: 27px;
+            .p-2 {
+                strong {
+                    background-color: rgb(220, 40, 76);
+                }
+            }
+        }
+    }
+    .bg-3 {
+        background-color: khaki;
+        .mg-3 {
+            margin-top: 24px;
+            .p-3 {
+                strong {
+                    background-color: khaki;
+                }
+            }
+        }
+    }
+    .bg-4 {
+        background-color: rgb(66, 66, 6);
+        .mg-4 {
+            margin-top: 33px;
+            .p-4 {
+                strong {
+                    background-color: rgb(66, 66, 6);
+                }
+            }
+        }
+    }
+    .bg-5 {
+        background-color: rgb(182, 63, 203);
+        .mg-5 {
+            margin-top: 32px;
+            .p-5 {
+                strong {
+                    background-color: rgb(182, 63, 203);
+                }
+            }
+        }
+    }
+    .bg-6 {
+        background-color: rgb(63, 58, 205);
+        .mg-6 {
+            margin-top: 25px;
+            .p-6 {
+                strong {
+                    background-color: rgb(63, 58, 205);
+                }
+            }
+        }
+    }
+    .bg-7 {
+        background-color: rgb(232, 109, 33);
+        .mg-7 {
+            margin-top: 28px;
+            .p-7 {
+                strong {
+                    background-color: rgb(232, 109, 33);
+                }
+            }
+        }
+    }
+    .bg-8 {
+        background-color: rgb(107, 38, 98);
+        .mg-8 {
+            margin-top: 32px;
+            .p-8 {
+                strong {
+                    background-color: rgb(107, 38, 98);
+                }
+            }
+        }
+    }
+    .bg-9 {
+        background-color: rgb(33, 67, 33);
+        .mg-9 {
+            margin-top: 35px;
+            .p-9 {
+                strong {
+                    background-color: rgb(33, 67, 33);
+                }
+            }
+        }
+    }
+}
+
+.slider_container {
+    position: relative;
+    margin-top: -50px;
+}
+
+.swiper {
+    height: auto;
+    .btns-sld {
+        position: absolute;
+        top: 23px;
+        border: 1px solid #ccc;
+        border-radius: 50%;
+        height: 30px;
+    }
+    .move {
+        position: absolute;
+        margin-left: 530px;
+    }
+    .swiper-button-next {
+        background-image: url(../images/icons/right.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+    }
+    .swiper-button-prev {
+        background-image: url(../images/icons/left.png);
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        background-position: center;
+    }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        display: none;
+    }
+}
+
+.swiper-slide {
+    background-color: khaki;
+    max-width: 150px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, .288);
+    position: relative;
+    bottom: -40px;
+    .small-img {
+        width: 100px;
+        transform: rotate(-30deg);
+        position: relative;
+        top: -10px;
+        left: 15px;
+        cursor: pointer;
+        img {
+            width: 100%;
+        }
+        .shadow {
+            height: 1px;
+            position: relative;
+            top: -14px;
+            box-shadow: 0px 20px 10px;
+        }
+    }
+    .cont-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(239, 252, 254);
+        margin-top: 35px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        position: relative;
+        padding-top: 20px;
+        .item-image {
+            width: 10px;
+            display: none;
+        }
+        p {
+            margin: 0px;
+            padding: 0px;
+        }
+        .plus {
+            background-color: rgb(239, 252, 254);
+            width: 34px;
+            height: 34px;
+            text-align: center;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: -15px;
+            margin-bottom: 0px;
+            cursor: pointer;
+            strong {
+                background-color: khaki;
+                padding: 3px 9px;
+                border-radius: 50%;
+            }
+        }
+        .hed {
+            font-size: 12px;
+            font-weight: 800;
+            margin-bottom: 3px;
+        }
+        .clrs {
+            font-size: 10px;
+            font-weight: bold;
+            color: #a3a5a8;
+            margin-bottom: 3px;
+        }
+        .prize {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+}

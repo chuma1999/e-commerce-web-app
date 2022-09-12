@@ -1,0 +1,81 @@
+.cart_container {
+    position: absolute;
+    top: 90px;
+    width: 420px;
+    height: 300px;
+    background-color: #fff;
+    padding-top: 10px;
+    border-top: 3px solid rgb(114, 113, 113);
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px rgba(94, 104, 121, .288), 3px 3px 5px rgba(94, 104, 121, .288);
+    margin-left: 5px;
+    overflow-y: scroll;
+    display: none;
+    padding: 10px 0px;
+    .cart-row {
+        .single-product-info {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: 14px;
+            color: rgb(114, 111, 111);
+            border-bottom: 1px solid rgb(114, 113, 113);
+            padding-bottom: 10px;
+            padding-top: 5px;
+            margin: 0px 15px;
+            img {
+                width: 80px;
+            }
+            input {
+                width: 30px;
+            }
+            .remove {
+                background-color: rgb(220, 40, 76);
+                border: none;
+                font-size: 12px;
+                color: rgb(242, 242, 242);
+                padding: 5px 5px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .remove:hover {
+                background-color: rgb(105, 27, 27);
+            }
+        }
+    }
+    .totals {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 20px;
+        padding-right: 15px;
+    }
+    .purchase {
+        background-color: rgb(111, 230, 243);
+        border: none;
+        border-radius: 5px;
+        padding: 8px 6px;
+        margin-right: auto;
+        margin-left: 170px;
+        color: #fff;
+        font-weight: bold;
+    }
+    .purchase:hover {
+        background-color: aqua;
+    }
+    animation-name: slide;
+    animation-duration:3s;
+}
+
+.show {
+    display: block;
+}
+
+@keyframes slide {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 5px;
+    }
+}
